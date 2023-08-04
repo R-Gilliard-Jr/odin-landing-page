@@ -15,12 +15,15 @@ ul {
     gap: 16px;
 }
 
-.section-1 {
+.section-1, .footer {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 8px 96px;
     color: #F9FAF8;
+}
+
+.section-1, .section-2, .section-3 {
+    padding: 0 12.5vw;
 }
 
 .header {
@@ -32,11 +35,14 @@ ul {
 .header p {
     margin: 0;
     padding: 0;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .s1-content {
     display: flex;
     justify-content: space-between;
+    margin: 72px 0;
 }
 
 .s1-content h2 {
@@ -65,6 +71,7 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: grey;
+    min-width: 300px;
 }
 
 button {
@@ -75,4 +82,44 @@ button {
     border: 0px;
     min-height: 30px;
     font-weight: 600;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px 0px 72px 0px;
+}
+
+.section-2 .examples {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 32px; */
+    width: 75vw;
+}
+
+div.example-img {
+    border-radius: 8px;
+    border: solid #3882f6 3px;
+    /* box-sizing: border-box; */
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.example p {
+    text-align: center;
+    box-sizing: border-box;
+    width:100px;
+    margin: 4px 0px;
+}
+
+.section-3 {
+    display: flex;
+    background-color: #E5e7eb;
 }
