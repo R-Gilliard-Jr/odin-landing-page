@@ -22,7 +22,7 @@ ul {
     color: #F9FAF8;
 }
 
-.section-1, .section-2, .section-3 {
+.section-1, .section-2, .section-3, .footer {
     padding: 0 12.5vw;
 }
 
@@ -122,4 +122,61 @@ div.example-img {
 .section-3 {
     display: flex;
     background-color: #E5e7eb;
+}
+
+.section-3 blockquote {
+    display: flex;
+    flex-direction: column;
+    font-family: Calibri, 'Sans Serif';
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.section-3 blockquote p {
+    font-weight: 200;
+}
+
+.section-3 blockquote footer {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section-4 {
+    border-radius: 8px;
+    background: #3882f6;
+    margin: 36px 12.5vw;
+}
+
+.section-4 .call-to-act {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 72px;
+}
+
+.call-to-act h4 {
+    font-size: 12px;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+.call-to-act p {
+    font-size: 10px;
+    color: #E5e7eb;
+    margin: 0;
+    padding: 0;
+}
+
+.call-to-act button {
+    border: solid #F9FAF8 2px;
+    padding: 0 12px;
+    font-size: 12px;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
 }
