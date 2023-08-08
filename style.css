@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -41,7 +43,8 @@ ul {
 
 .s1-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 12.5vw;
     margin: 72px 0;
 }
 
@@ -93,8 +96,8 @@ button {
 
 .section-2 .examples {
     display: flex;
-    justify-content: space-between;
-    /* gap: 32px; */
+    justify-content: center;
+    gap: 64px;
     width: 75vw;
 }
 
@@ -122,6 +125,7 @@ div.example-img {
 .section-3 {
     display: flex;
     background-color: #E5e7eb;
+    justify-content: center;
 }
 
 .section-3 blockquote {
@@ -132,6 +136,8 @@ div.example-img {
     font-style: italic;
     font-weight: 100;
     color: #1f2937;
+    box-sizing: border-box;
+    max-width: 600px;
 }
 
 .section-3 blockquote p {
@@ -148,12 +154,17 @@ div.example-img {
     border-radius: 8px;
     background: #3882f6;
     margin: 36px 12.5vw;
+    box-sizing: border-box;
+    align-self: center;
+    /* width: 600px; */
 }
 
 .section-4 .call-to-act {
     display: flex;
     justify-content: space-between;
     padding: 24px 72px;
+    flex: 1 1 0;
+    gap: 72px;
 }
 
 .call-to-act h4 {
